@@ -115,15 +115,15 @@ To enable the Nginx server block file, use `sudo ln -s /etc/nginx/sites-availabl
 
 ## Part 5. Start / Restart NGINX Service 
 
+1. Use the following commands to either start or restart Nginx service: 
 * Start Nginx service: `sudo systemctl start nginx.service`
-
 * Restart Nginx service: `sudo systemctl restart nginx.service`
 
-![start_restart_commands](./images/start_restart.jpg)
+2. Use `systemctl status nginx` to check the status of Nginx service 
+
+![start_status_commands](./images/start_status.jpg)
 
 ### Some Basic Management Commands 
-
-* Check the status of Nginx service: `systemctl status nginx` 
 
 * Stop Nginx service: `sudo systemctl stop nginx.service`
 
