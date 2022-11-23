@@ -164,4 +164,4 @@ To enable the Nginx server block file, use `sudo ln -s /etc/nginx/sites-availabl
 
 2. Re-login to the web-one server as a regular user via `ssh -i ~/.ssh/FILE_NAME USER_NAME@DIGITALOCEAN_DROPLET_IP_ADDRESS` to verify **allow OpenSSH** firewall rule. 
 
-3. Restart Nginx service via `to verify **allow Nginx HTTP** firewall rule. 
+3. Restart Nginx service via `sudo systemctl restart nginx.service` to verify **allow Nginx HTTP** firewall rule. 
