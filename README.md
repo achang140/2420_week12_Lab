@@ -37,7 +37,7 @@ Website is hosted on NGINX Web Server.
 
 ## Step 3 & 4 - HTML and NGINX Server Block Files 
 
-* As a local host in your **wsl**, create an HTML and a nginx server block by using `vim FILENAME` or your favorite editor. 
+* As a local host in your **wsl**, create an HTML file and a nginx server block file by using `vim FILENAME` or your favorite editor. 
 
 **Example of HTML** 
 ```HTML
