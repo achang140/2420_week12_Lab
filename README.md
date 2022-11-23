@@ -142,20 +142,18 @@ To enable the Nginx server block file, use `sudo ln -s /etc/nginx/sites-availabl
 
 ## Part 7. Setup Firewall Using UFW 
 
-1. Setup firewall to allow incoming HTTP and SSH connections
+1. Use `sudo ufw app list` to display a list of available applications, you should see Nginx 
+
+2. Setup firewall to allow incoming HTTP and SSH connections
 * `sudo ufw allow 'Nginx HTTP'` allows HTTP 
 * `sudo ufw allow OpenSSH` allows SSH connections 
 
-2. Use `sudo ufw enable` to enable the firewall 
+3. Use `sudo ufw enable` to enable the firewall 
 
-3. `sudo ufw status` displays the status of Nginx service and the allowed traffic status, which can be used to verify changes 
+4. `sudo ufw status` displays the status of Nginx service and the allowed traffic status, which can be used to verify changes 
 
 **Example**
 ![allow_command](./images/firewall_rules.jpg)
-
-### General Commands: 
-
-* `sudo ufw app list` display a list of available applications 
 
 --- 
 
