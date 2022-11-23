@@ -121,6 +121,7 @@ To enable the Nginx server block file, use `sudo ln -s /etc/nginx/sites-availabl
 
 2. Use `systemctl status nginx` to check the status of Nginx service 
 
+**Example**
 ![start_status_commands](./images/start_status.jpg)
 
 ### Some Basic Management Commands 
