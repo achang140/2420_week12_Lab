@@ -96,7 +96,7 @@ Move your HTML file to the directory by using `sudo mv index.html /var/www/YOUR_
 
 * The permission of your web roots should allow the owner to read, write, and execute the files, <br/>
 while groups and others can only read and execute. <br/> 
-If you have modified your unmask value, use `sudo chmod -R 755 /var/www/YOUR_DOMAIN` to reset the permission. <br/>
+If you modified your unmask value, use `sudo chmod -R 755 /var/www/YOUR_DOMAIN` to reset the permission. <br/>
 
 **Example** 
 ![mv_index_html](./images/mv_index_html.jpg)
