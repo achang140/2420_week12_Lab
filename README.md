@@ -150,7 +150,7 @@ To enable the Nginx server block file, use `sudo ln -s /etc/nginx/sites-availabl
 
 3. Use `sudo ufw enable` to enable the firewall 
 
-4. `sudo ufw status` displays the status of Nginx service and the allowed traffic status, which can be used to verify changes 
+4. `sudo ufw status` displays the status of Nginx service and lists the allowed traffic, which can be used to verify changes 
 
 **Example**
 ![allow_command](./images/firewall_rules.jpg)
@@ -159,7 +159,7 @@ To enable the Nginx server block file, use `sudo ln -s /etc/nginx/sites-availabl
 
 ## Part 8. After Firewall Setup 
 
-1. Log out of the regular user account of the web-one server 
+1. Log out of the regular user account from the web-one server 
 
 2. Re-login to the web-one server as a regular user via `ssh -i ~/.ssh/FILE_NAME USER_NAME@DIGITALOCEAN_DROPLET_IP_ADDRESS` to verify **allow OpenSSH** firewall rule. 
 
